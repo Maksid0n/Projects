@@ -1,0 +1,59 @@
+* { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    font: 13px Helvetica, Arial; 
+    background: #1c1c1c 
+}
+form { 
+    background: #454545; 
+    padding: 3px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+form input { 
+    border: 0;
+    padding: 10px;
+    width: 80%;
+    margin-right: .5%; 
+}
+#button {
+    width: 9%;
+    background: rgb(1, 237, 10);
+    border: 3px solid silver; 
+    padding: 10px; 
+    border-radius: 5px;
+}
+#messages { 
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+}
+#messages li {
+    padding: 5px 10px; 
+    color: white;
+}
+span{
+    padding: 5px 10px; 
+    color: white;
+}
+#messages li:nth-child(odd) {
+    background: #434242;
+}
+#upload-input{
+    display: none;
+}
+.upbutton{
+    width: 9%;
+    background: rgb(1, 237, 10);
+    border: 3px solid silver; 
+    padding: 10px; 
+    border-radius: 5px;
+}
+a{
+    margin-left: 25px;
+    color: rgb(1, 237, 10);
+}

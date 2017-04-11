@@ -1,0 +1,10 @@
+{
+  "name": "Simple-chat",
+  "version": "0.0.1",
+  "description": "my first chat",
+  "dependencies": {
+    "express": "^4.14.1",
+    "formidable": "^1.1.1",
+    "socket.io": "^1.7.2"
+  }
+}
